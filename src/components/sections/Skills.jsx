@@ -36,10 +36,10 @@ const Skills = () => {
             technologies: [
                 { name: "Figma", icon: <FiFigma /> },
                 { name: "Flutter", icon: <SiFlutter /> },
-                { name: "Streamlit", icon: <SiStreamlit /> },
-                { name: "Vertex AI", icon: <SiGooglecloud /> },
                 { name: "Git", icon: <FaGitAlt /> },
                 { name: "Postman", icon: <SiPostman /> },
+                { name: "Streamlit", icon: <SiStreamlit /> },
+                { name: "Vertex AI", icon: <SiGooglecloud /> },
             ],
         },
     ];

@@ -52,7 +52,7 @@ const Certifications = () => {
                                         rel="noopener noreferrer"
                                         className="text-xs font-bold uppercase tracking-wider border border-zinc-300 dark:border-zinc-700 px-4 py-2 rounded-none hover:bg-black hover:text-white dark:hover:bg-white dark:hover:text-black transition-all"
                                     >
-                                        Verify Credential
+                                        View Credential
                                     </a>
                                 )}
                             </div>

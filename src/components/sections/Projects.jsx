@@ -4,14 +4,7 @@ import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 
 const Projects = () => {
     const projects = [
-        {
-            title: "SmartBus (Travo) – Fleet Management",
-            description:
-                "A real-time transportation solution featuring GPS tracking, sub-second latency via Redis, and dedicated safety modules for students/parents. Modernizing commuting with high-performance event-driven telemetry.",
-            techStack: ["NestJS", "Redis", "Socket.io", "React", "MySQL", "Tailwind"],
-            github: "https://github.com/pradeepkumar2006/Travo",
-            demo: "#",
-        },
+        
         {
             title: "NOMAD – AI Travel Assistant (RAG)",
             description:
@@ -21,10 +14,34 @@ const Projects = () => {
             demo: "#",
         },
         {
+           title: "AirConnect – Airline Reservation System",
+            description:
+                "Full-stack reservation system featuring real-time flight searches, interactive seating charts, and automated ticket generation with a professional responsive UI.",
+            techStack: ["React", "Spring Boot", "MySQL", "REST API"],
+            github: "#",
+            demo: "#",
+        },
+        {
+            title: "SmartBus (Travo) – Fleet Management",
+            description:
+                "A real-time transportation solution featuring GPS tracking, sub-second latency via Redis, and dedicated safety modules for students/parents. Modernizing commuting with high-performance event-driven telemetry.",
+            techStack: ["Java","Spring Boot", "Redis", "React", "MySQL", "Tailwind"],
+            github: "https://github.com/pradeepkumar2006/Travo",
+            demo: "#",
+        },
+        {
+           title: "Smart Campus Management System",
+            description:
+                "Scalable backend system with secure JWT-based role authentication. Implements modules for attendance, marks, and administrative workflows using Spring Security.",
+            techStack: ["Spring Boot", "Spring Security", "JWT", "MySQL", "REST API"],
+            github: "#",
+            demo: "#",
+        },
+        {
             title: "Multi-Platform System Hardening Tool",
             description:
                 "Enterprise security tool for cross-platform system hardening. Automates security configurations and vulnerability patching for Windows and Linux environments.",
-            techStack: ["Python", "Shell Scripting", "Linux", "Windows Security"],
+            techStack: ["Python", "Spring Boot", "Shell Scripting", "Linux", "Windows Security"],
             github: "#",
             demo: "#",
             
@@ -38,22 +55,8 @@ const Projects = () => {
             demo: "#",
            
         },
-        {
-           title: "AirConnect – Airline Reservation System",
-            description:
-                "Full-stack reservation system featuring real-time flight searches, interactive seating charts, and automated ticket generation with a professional responsive UI.",
-            techStack: ["React", "Spring Boot", "MySQL", "REST API"],
-            github: "#",
-            demo: "#",
-        },
-        {
-           title: "Smart Campus Management System",
-            description:
-                "Scalable backend system with secure JWT-based role authentication. Implements modules for attendance, marks, and administrative workflows using Spring Security.",
-            techStack: ["Spring Boot", "Spring Security", "JWT", "MySQL", "REST API"],
-            github: "#",
-            demo: "#",
-        },
+        
+        
 
     ];
 

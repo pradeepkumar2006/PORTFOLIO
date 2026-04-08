@@ -6,7 +6,7 @@ const About = () => {
     const education = [
         {
             degree: "Bachelor of Information Technology",
-            institution: "A.V.C College of Engineering, Mannampandhal",
+            institution: "A.V.C College of Engineering, Mannampandal",
             year: "2023 - 2027",
             description: "CGPA: 8.1 / 10",
         },
@@ -43,7 +43,7 @@ const About = () => {
                             Entry-level Developer specializing in Information Technology.
                         </h3>
                         <p className="text-zinc-600 dark:text-zinc-500 text-lg leading-relaxed mb-6 font-light">
-                            I am looking for an entry-level developer position where I can utilize my coding and problem-solving capabilities. 
+                            I am looking for an entry-level developer position where I can utilize my coding and problem-solving capabilities.
                             I'm deeply interested in developing skills in new technologies through projects and constant learning.
                             My aim is to grow as a professional while contributing to the organization's success with dedicated effort and technical proficiency.
                         </p>
